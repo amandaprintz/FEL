@@ -3,6 +3,7 @@
     display: none;
   }
 
+  /* NAV-section in desktop */
   .nav-desktop {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -20,5 +21,15 @@
     padding: 10px;
     font-family: BNGrimer;
     font-size: 28px;
+  }
+
+  /* LAB-section in desktop */
+  .lab-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .lab img {
+    width: 100%;
+    height: 100%;
   }
 }
