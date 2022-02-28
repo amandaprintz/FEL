@@ -84,7 +84,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #cfee4d;
+  background: #ffffff;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -110,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  padding-left: 50px;
+  /*   padding-left: 50px; */
   transition: transform 0.5s ease-in-out;
   text-align: center;
   z-index: 50;
