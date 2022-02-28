@@ -2,6 +2,8 @@
   .nav-container {
     display: none;
   }
+
+  /* STYLING FOR NAV DESKTOP */
   .nav-desktop {
     overflow: hidden;
     display: flex;
