@@ -20,6 +20,13 @@ h1 {
   margin-left: 64px;
 }
 
+h2 {
+  color: white;
+}
+p {
+  color: white;
+}
+
 p {
   font-size: 24px;
   font-family: Roboto;
