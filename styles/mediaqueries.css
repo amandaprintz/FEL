@@ -3,33 +3,22 @@
     display: none;
   }
 
-  /* STYLING FOR NAV DESKTOP */
   .nav-desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     overflow: hidden;
-    display: flex;
     position: fixed;
-    bottom: 0;
-    flex-direction: row;
-    background-color: black;
     width: 100%;
     z-index: 10;
-    justify-content: space-between;
-  }
-
-  .nav-desktop a {
-    text-decoration: none;
+    bottom: 0;
+    background-color: black;
     color: white;
+    text-align: center;
+  }
+  .text-border {
+    border: 1px solid white;
+    padding: 10px;
     font-family: BNGrimer;
     font-size: 28px;
-    margin-left: 170px;
-    margin-right: 170px;
-  }
-
-  .nav-desktop li {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    border: 1px solid white;
   }
 }
