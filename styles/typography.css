@@ -1,0 +1,8 @@
+h1 {
+  font-size: 34px;
+  color: white;
+  position: absolute;
+  z-index: 10;
+  margin-top: 20px;
+  margin-left: 20px;
+}

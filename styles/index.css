@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+}
+
+.hero img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #211f1f;
+}
