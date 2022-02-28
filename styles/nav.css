@@ -149,3 +149,8 @@ body {
 .nav-container input[type="checkbox"]:checked ~ .logo {
   display: none;
 }
+/* nav in desktop */
+
+.nav-desktop {
+  display: none;
+}
