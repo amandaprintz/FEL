@@ -9,3 +9,7 @@ html {
   margin: 0;
   background-color: black;
 }
+
+.hero img {
+  width: 100vw;
+}
