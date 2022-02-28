@@ -154,3 +154,13 @@ body {
 .nav-desktop {
   display: none;
 }
+
+/* LAB-section */
+.lab-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.lab img {
+  width: 100%;
+  height: 100%;
+}
