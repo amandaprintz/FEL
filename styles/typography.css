@@ -130,6 +130,31 @@ p {
     margin-bottom: 7%;
     max-width: 450px;
   }
+
+  /* CSS LAB section  */
+
+  .lab-wrapper h2 {
+    font-family: BNGrimer;
+    font-size: 3.1em;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    margin-top: 20%;
+    margin-left: 12%;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  .lab-wrapper p {
+    font-family: Roboto;
+    font-size: 1.2em;
+    position: absolute;
+    z-index: 10;
+    margin-top: 12%;
+    margin-left: 12%;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -158,4 +183,27 @@ p {
   }
 
   /* CSS LAB section  */
+
+  .lab-wrapper h2 {
+    font-family: BNGrimer;
+    font-size: 3.1em;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    margin-top: 20%;
+    margin-left: 12%;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  .lab-wrapper p {
+    font-family: Roboto;
+    font-size: 1.2em;
+    position: absolute;
+    z-index: 10;
+    margin-top: 12%;
+    margin-left: 12%;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
 }
