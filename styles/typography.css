@@ -10,31 +10,72 @@
   font-weight: normal;
 }
 
-/* Global typography */
+/* Global typography - applies to all screens*/
+h1 {
+  font-family: BNGrimer;
+  color: white;
+  position: absolute;
+  z-index: 10;
+}
+
 p {
   font-family: Roboto;
   font-size: 24px;
   color: white;
 }
 
-h1 {
-  font-family: BNGrimer;
-  font-size: 6em;
-  color: white;
-  position: absolute;
-  z-index: 10;
-  margin-top: 5%;
-  margin-left: 2.5%;
+/* Phone screen */
+@media screen and (max-width: 560px) {
+  h1 {
+    font-size: 2.2em;
+    color: white;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+    z-index: 10;
+  }
+
+  p {
+    font-family: Roboto;
+    font-size: 16px;
+    color: white;
+    margin-top: 35%;
+    margin-left: 5%;
+  }
 }
 
-h2 {
-  font-family: BNGrimer;
-  color: #cfee4d;
-  font-size: 70px;
+/* Tablet screen */
+@media screen and (min-width: 560px) {
 }
-.hero p {
-  position: absolute;
-  z-index: 10;
-  margin-top: 20%;
-  margin-left: 2.5%;
+
+/* Desktop screen*/
+@media screen and (min-width: 768px) {
+  h2 {
+    font-family: BNGrimer;
+    color: #cfee4d;
+    font-size: 70px;
+  }
+
+  h1 {
+    font-family: BNGrimer;
+    font-size: 6em;
+    margin-top: 5%;
+    margin-left: 2.5%;
+  }
+
+  p {
+    font-family: Roboto;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  .hero p {
+    position: absolute;
+    z-index: 10;
+    margin-top: 16%;
+    margin-left: 2.5%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
 }
