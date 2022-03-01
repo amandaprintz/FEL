@@ -144,7 +144,7 @@ p {
     font-size: 1.2em;
   }
 
-  /* H2 for info section */
+  /* CSS info section */
   .column h2 {
     font-size: 4.9em;
     margin-top: 1%;
@@ -156,4 +156,6 @@ p {
     max-width: 600px;
     margin-left: 4%;
   }
+
+  /* CSS LAB section  */
 }
