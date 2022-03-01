@@ -1,58 +1,9 @@
-@media screen and (min-width: 768px) {
-  .nav-container {
-    display: none;
-  }
-
-  /* NAV-section in desktop */
-  .nav-desktop {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    bottom: 0;
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
-  .text-border {
-    border: 1px solid white;
-    padding: 10px;
-    font-family: BNGrimer;
-    font-size: 28px;
-  }
-
-  /* INFO-section in desktop */
-  .info-wrapper {
-    display: flex;
-    flex-direction: row;
-    flex: 50%;
-  }
-  .info-wrapper .column {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-  }
-
-  /* LAB-section in desktop */
-  .lab-wrapper {
-    display: grid;
-    grid-template-columns: (1fr 1fr 1fr);
-    padding: 11px;
-  }
-  .lab-wrapper .lab {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-  }
-  .lab-wrapper .lab img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border: 1px solid white;
-  }
+/* LAB-section */
+.lab-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.lab img {
+  width: 100%;
+  height: 100%;
 }
