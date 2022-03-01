@@ -23,11 +23,23 @@
     font-size: 28px;
   }
 
+  /* INFO-section in desktop */
+  .info-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+  }
+  .info-wrapper .column {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
   /* LAB-section in desktop */
   .lab-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: (1fr 1fr 1fr);
     padding: 11px;
   }
   .lab-wrapper .lab {
