@@ -11,5 +11,6 @@ html {
 }
 
 .hero img {
-  width: 100vw;
+  width: 100%;
+  border: 1px solid white;
 }
