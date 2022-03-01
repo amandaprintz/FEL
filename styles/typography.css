@@ -1,3 +1,4 @@
+/* All fonts being used in this project */
 @font-face {
   font-family: BNGrimer;
   src: url("/fonts/BNGrimer.otf");
@@ -18,6 +19,11 @@ h1 {
   z-index: 10;
 }
 
+h2 {
+  font-family: BNGrimer;
+  color: #cfee4d;
+}
+
 p {
   font-family: Roboto;
   font-size: 24px;
@@ -28,9 +34,7 @@ p {
 @media screen and (max-width: 560px) {
   h1 {
     font-size: 2.2em;
-    color: white;
-    position: absolute;
-    margin-top: 18%;
+    margin-top: 35%;
     margin-left: 5%;
     z-index: 10;
   }
@@ -38,8 +42,7 @@ p {
   p {
     font-family: Roboto;
     font-size: 16px;
-    color: white;
-    margin-top: 35%;
+    margin-top: 55%;
     margin-left: 5%;
   }
 }
@@ -55,30 +58,48 @@ p {
 /* Desktop screen*/
 @media screen and (min-width: 768px) {
   h1 {
-    font-family: BNGrimer;
     font-size: 4.3em;
     margin-top: 15%;
     margin-left: 2.5%;
   }
 
   h2 {
-    font-family: BNGrimer;
-    color: #cfee4d;
     font-size: 70px;
   }
 
   p {
-    font-family: Roboto;
     font-size: 1.5em;
-    color: white;
   }
 
   .hero p {
     margin-top: 35%;
     margin-left: 2.6%;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 5em;
+    margin-top: 11%;
+  }
+
+  .hero p {
+    margin-top: 27%;
+    margin-left: 2.8%;
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h1 {
+    font-size: 5em;
+    margin-top: 11%;
+  }
+
+  .hero p {
+    margin-top: 22%;
+    margin-left: 2.8%;
+    font-size: 1.2em;
+  }
 }
