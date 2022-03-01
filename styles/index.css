@@ -39,4 +39,5 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  border: 1px solid white;
 }
