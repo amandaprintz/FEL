@@ -105,8 +105,32 @@ p {
   .column p {
     margin-bottom: 7%;
   }
+  /* CSS LAB section  */
+  .lab-wrapper h2 {
+    /*     font-family: BNGrimer; */
+    font-size: 2.5em;
+    color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    margin-top: 20%;
+    margin-left: 12%;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
+
+  .lab-wrapper p {
+    font-family: Roboto;
+    font-size: 1.2em;
+    position: absolute;
+    z-index: 10;
+    margin-top: 12%;
+    margin-left: 12%;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+  }
 }
 
+/* Big desktop*/
 @media screen and (min-width: 1024px) {
   h1 {
     font-size: 5em;
@@ -157,6 +181,7 @@ p {
   }
 }
 
+/* XL desktop */
 @media screen and (min-width: 1280px) {
   h1 {
     font-size: 5em;
@@ -186,7 +211,7 @@ p {
 
   .lab-wrapper h2 {
     font-family: BNGrimer;
-    font-size: 3.1em;
+    font-size: 4.9em;
     color: #ffffff;
     position: absolute;
     z-index: 10;
@@ -198,7 +223,7 @@ p {
 
   .lab-wrapper p {
     font-family: Roboto;
-    font-size: 1.2em;
+    font-size: 1.5em;
     position: absolute;
     z-index: 10;
     margin-top: 12%;
