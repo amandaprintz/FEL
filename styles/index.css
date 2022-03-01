@@ -12,5 +12,8 @@ html {
 
 .hero img {
   width: 100%;
+  max-width: 100%;
+  z-index: 0;
   border: 1px solid white;
+  overflow-x: hidden;
 }
