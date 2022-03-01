@@ -128,6 +128,7 @@ p {
 
   .column p {
     margin-bottom: 7%;
+    max-width: 450px;
   }
 }
 
@@ -145,12 +146,14 @@ p {
 
   /* H2 for info section */
   .column h2 {
-    font-size: 4.5em;
+    font-size: 4.9em;
     margin-top: 1%;
     margin-left: 4%;
   }
 
   .column p {
     margin-bottom: 7%;
+    max-width: 600px;
+    margin-left: 4%;
   }
 }
