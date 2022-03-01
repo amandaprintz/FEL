@@ -11,11 +11,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.container {
-  max-width: 1050px;
-  margin: auto;
-}
-
 .navbar {
   width: 100%;
 }
@@ -84,7 +79,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #ffffff;
+  background: #cfee4d;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -110,7 +105,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 0;
-  /*   padding-left: 50px; */
+  padding-left: 50px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
   z-index: 50;

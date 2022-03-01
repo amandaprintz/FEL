@@ -2,18 +2,20 @@
   box-sizing: border-box;
 }
 
-body,
-html {
+body {
   width: 100vw;
   height: 100%;
   margin: 0;
   background-color: black;
 }
 
-.hero img {
-  width: 100%;
-  max-width: 100%;
-  z-index: 0;
-  border: 1px solid white;
+.hero {
   overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/HERO2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
