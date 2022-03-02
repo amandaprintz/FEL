@@ -1,0 +1,51 @@
+/* Phone screen */
+@media screen and (max-width: 560px) {
+  .hero {
+    background-image: url(/images/HERO-mobile.png);
+    height: 200px;
+  }
+}
+
+/* Tablet screen */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/HERO2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Desktop screen */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/HERO2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 1px solid white;
+}
+
+/* EJ KLAR!!!!!! */
+
+/* Phone screen */
+@media screen and (max-width: 560px) {
+}
+
+/* Tablet screen */
+@media screen and (min-width: 560px) {
+}
+
+/* Desktop screen*/
+@media screen and (min-width: 768px) {
+}
+
+/* Big desktop*/
+@media screen and (min-width: 1024px) {
+}
+/* XL desktop */
+@media screen and (min-width: 1280px) {
+}

@@ -1,0 +1,66 @@
+/* Phone screen */
+.lab-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: 1fr;
+  position: relative;
+  padding: 0%;
+  margin-top: 5%;
+}
+
+.lab img {
+  width: 100%;
+  height: 90%;
+}
+
+.lab p {
+  margin-top: 0;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 560px) {
+}
+
+/* Desktop screen*/
+@media screen and (min-width: 768px) {
+  .lab-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    padding: 0%;
+    margin-top: 5%;
+  }
+  .lab-wrapper .lab {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  .lab-wrapper .lab img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid white;
+  }
+
+  button {
+    height: 14%;
+    font-size: 1.2em;
+  }
+}
+
+/* Big desktop*/
+@media screen and (min-width: 1024px) {
+  button {
+    height: 11.5%;
+    font-size: 1.2em;
+  }
+}
+/* XL desktop */
+@media screen and (min-width: 1280px) {
+  button {
+    height: 6.5%;
+    font-size: 1.2em;
+  }
+}
