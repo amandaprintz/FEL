@@ -1,22 +1,71 @@
 /* Phone screen */
 
-/* Tablet screen */
+.contact h2 {
+  margin-left: 4.5%;
+  position: absolute;
+  margin-top: 11%;
+}
+
+.contact p {
+  font-size: 1em;
+  color: white;
+  margin-left: 4.5%;
+  position: absolute;
+  margin-top: 30%;
+}
+
+.contact button {
+  background-color: rgba(0, 0, 0, 0.719);
+  width: 200px;
+  height: 60px;
+  font-family: Roboto;
+  border: 0.5px solid white;
+  cursor: pointer;
+  position: absolute;
+  margin-top: 60%;
+  margin-left: 5.5%;
+}
+
+.contact {
+  position: relative;
+}
+
 .contact-content {
   object-fit: cover;
 }
 
 .contact-content img {
   width: 100vw;
-  height: 50vh;
+  height: 45vh;
 }
 
 @media screen and (min-width: 560px) {
+  .contact button {
+    margin-top: 51%;
+    margin-left: 5.5%;
+  }
 }
 
 /* Desktop screen*/
 @media screen and (min-width: 768px) {
   .contact {
     margin-bottom: 10%;
+  }
+
+  .contact h2 {
+    font-size: 2.7em;
+    margin-left: 4.5%;
+    position: absolute;
+    margin-top: 7%;
+  }
+
+  .contact p {
+    font-family: Roboto;
+    font-size: 1.2em;
+    margin-top: 25%;
+    margin-left: 2.5%;
+    position: absolute;
+    text-align: start;
   }
 
   .contact button {
