@@ -171,6 +171,11 @@ h1 {
     position: absolute;
     text-align: start;
   }
+  /* CSS for FOOTER section */
+  .footer-wrapper h2 {
+    font-family: BNGrimer;
+    font-size: 3em;
+  }
 }
 
 /* Big desktop*/
