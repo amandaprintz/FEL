@@ -1,8 +1,14 @@
 /* Phone screen */
 
 .explore-section h2 {
-  margin-bottom: 8%;
   margin-left: 4.5%;
+  margin-bottom: 7.5%;
+}
+
+.explore-section p {
+  font-family: BNGrimer;
+  position: absolute;
+  margin-top: 40%;
 }
 
 .explore-wrapper {
@@ -49,6 +55,11 @@
 
 /* Big desktop*/
 @media screen and (min-width: 1024px) {
+  .explore-section h2 {
+    margin-left: 2.5%;
+    margin-top: 5%;
+  }
+
   .explore-wrapper {
     padding: 0%;
     margin-top: 5%;
