@@ -13,8 +13,24 @@
   height: 90%;
 }
 
+.lab-content img {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.lab {
+  height: fit-content;
+}
+
 .lab p {
-  margin-top: -13%;
+  margin-top: -3%;
+  display: none;
+}
+
+button {
+  height: 60px;
+  margin-bottom: 40px;
 }
 
 /* Tablet screen */
@@ -55,6 +71,12 @@
   button {
     height: 11.5%;
     font-size: 1.2em;
+  }
+
+  .lab-content img {
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
   }
 }
 /* XL desktop */
