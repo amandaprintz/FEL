@@ -28,7 +28,18 @@
     display: inline-block;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 5%;
+    margin-left: 2.5%;
+    padding: 2%;
+  }
+  .icons-wrapper {
+    display: flex;
+  }
+  .icons {
+    padding-right: 3%;
   }
 }
 
