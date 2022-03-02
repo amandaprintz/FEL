@@ -8,7 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 62px;
+    /*     height: 100vh;
+ */
+    z-index: 70;
   }
 
   .navbar .menu-items {

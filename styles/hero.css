@@ -3,6 +3,7 @@
 .hero {
   background-image: url(/images/HERO-mobile.png);
   height: 70vh;
+  /*   width: 100%; */
 }
 
 @media screen and (min-width: 1024px) {

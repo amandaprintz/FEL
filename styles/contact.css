@@ -1,6 +1,15 @@
 /* Phone screen */
 
 /* Tablet screen */
+
+/* .contact-content {
+  width: 100vw;
+}
+
+.contact-content {
+  width: 100vw;
+} */
+
 @media screen and (min-width: 560px) {
 }
 
@@ -10,9 +19,6 @@
     margin-bottom: 10%;
   }
 
-  .contact img {
-    max-width: 100vw;
-  }
   .contact button {
     margin-left: 2.5%;
     margin-top: 32%;
