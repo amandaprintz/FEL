@@ -26,11 +26,10 @@ button:hover {
 }
 
 /* Phone screen */
-@media screen and (max-width: 560px) {
-  .hero {
-    background-image: url(/images/HERO-mobile.png);
-    height: 200px;
-  }
+
+.hero {
+  background-image: url(/images/HERO-mobile.png);
+  height: 200px;
 }
 
 /* Desktop screen */

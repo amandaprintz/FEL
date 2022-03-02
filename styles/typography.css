@@ -165,11 +165,15 @@ h1 {
   }
   .contact p {
     font-family: Roboto;
-    font-size: 1.4em;
-    margin-top: 18%;
+    font-size: 1.2em;
+    margin-top: 25%;
     margin-left: 2.5%;
     position: absolute;
     text-align: start;
+  }
+
+  .contact button {
+    font-size: 1em;
   }
   /* CSS for FOOTER section */
   .footer-wrapper h2 {
