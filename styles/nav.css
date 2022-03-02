@@ -22,7 +22,7 @@
   .navbar .nav-container a {
     font-family: BNGrimer;
     text-decoration: none;
-    color: #cfee4d;
+    color: #5be58c;
     font-weight: 500;
     font-size: 1.2rem;
     /*   padding: 0.7rem; */
@@ -186,7 +186,6 @@
   .lab-wrapper {
     display: grid;
     grid-template-columns: (1fr 1fr 1fr);
-    padding: 11px;
   }
   .lab-wrapper .lab {
     position: relative;
