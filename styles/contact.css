@@ -1,14 +1,14 @@
 /* Phone screen */
 
 /* Tablet screen */
-
-/* .contact-content {
-  width: 100vw;
+.contact-content {
+  object-fit: cover;
 }
 
-.contact-content {
-  width: 100vw;
-} */
+.contact-content img {
+  width: fit-content;
+  height: 50vh;
+}
 
 @media screen and (min-width: 560px) {
 }
@@ -27,10 +27,18 @@
     font-size: 1.4em;
     font-family: Roboto;
   }
+
+  .contact-content img {
+    width: 100%;
+  }
 }
 
 /* Big desktop*/
 @media screen and (min-width: 1024px) {
+  .contact-content img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* XL desktop */
