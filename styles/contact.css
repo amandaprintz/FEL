@@ -11,7 +11,7 @@
   }
 
   .contact img {
-    max-width: 100%;
+    max-width: 100vw;
   }
   .contact button {
     margin-left: 2.5%;
