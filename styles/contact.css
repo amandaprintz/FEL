@@ -6,7 +6,7 @@
 }
 
 .contact-content img {
-  width: fit-content;
+  width: 100vw;
   height: 50vh;
 }
 
