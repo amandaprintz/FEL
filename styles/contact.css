@@ -98,16 +98,7 @@
 @media screen and (min-width: 1280px) {
   .contact-content img {
     width: 100%;
-    height: 88vh;
-  }
-
-  .contact p {
-    font-family: Roboto;
-    font-size: 1.2em;
-    margin-top: 18%;
-    margin-left: 2.5%;
-    position: absolute;
-    text-align: start;
+    height: 70vh;
   }
 
   .contact button {

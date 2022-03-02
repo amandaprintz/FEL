@@ -329,4 +329,13 @@ h1 {
     margin-bottom: 5%;
     margin-left: 4%;
   }
+
+  .contact p {
+    font-family: Roboto;
+    font-size: 1.2em;
+    margin-top: 17%;
+    margin-left: 2.5%;
+    position: absolute;
+    text-align: start;
+  }
 }
