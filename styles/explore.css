@@ -28,10 +28,6 @@
   border: 1px solid white;
   max-width: 100%;
 }
-.explore-wrapper .explore img:hover {
-  border: 1px solid #5be58c;
-  cursor: pointer;
-}
 
 /* Tablet screen */
 @media screen and (min-width: 560px) {
@@ -55,8 +51,6 @@
     object-fit: cover;
     border: 1px solid white;
     max-width: 100%;
-  }
-  .hover:hover img {
   }
 }
 
@@ -85,7 +79,17 @@
     border: 1px solid white;
     max-width: 100%;
   }
+  .explore-wrapper .explore img:hover {
+    border: 1px solid #5be58c;
+    cursor: pointer;
+  }
+
+  .explore:hover p {
+    color: #5be58c;
+    cursor: pointer;
+  }
 }
+
 /* XL desktop */
 @media screen and (min-width: 1280px) {
   .explore-wrapper {
