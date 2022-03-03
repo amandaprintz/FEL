@@ -95,7 +95,7 @@
   }
   .footer-wrapper p {
     font-family: Roboto;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-left: 0;
   }
   .footer-wrapper hr {
@@ -107,5 +107,7 @@
   }
   .icons-wrapper img {
     margin-right: 10px;
+    width: 35px;
+    height: 35px;
   }
 }

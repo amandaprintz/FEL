@@ -21,10 +21,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #5be58b46;
-}
-
 /* Phone screen */
 
 .hero {

@@ -58,6 +58,7 @@ button {
     height: 100%;
     object-fit: cover;
     border: 1px solid white;
+    cursor: pointer;
   }
 
   .lab-content {
@@ -71,6 +72,7 @@ button {
     width: 100%;
     height: 100%;
     background: rgb(91, 229, 140, 0.5);
+    cursor: pointer;
   }
   .lab-content:hover .img-hover {
     display: block;
@@ -93,6 +95,7 @@ button {
     height: 420px;
     width: 100%;
     object-fit: cover;
+    cursor: pointer;
   }
 }
 /* XL desktop */
