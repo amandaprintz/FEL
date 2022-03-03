@@ -77,6 +77,9 @@
     height: 100%;
     margin-top: 5%;
   }
+  .right {
+    margin-left: 10%;
+  }
   .footer-wrapper h2 {
     font-family: BNGrimer;
     font-size: 3.2em;

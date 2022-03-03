@@ -28,7 +28,7 @@ p {
   font-family: Roboto;
   font-size: 24px;
   color: white;
-  margin-left: 4.5%;
+  margin-left: 3%;
 }
 
 .lab-wrapper p {
@@ -44,14 +44,14 @@ p {
 h1 {
   font-size: 2.2em;
   margin-top: 35%;
-  margin-left: 5%;
+  margin-left: 2.5%;
   z-index: 10;
 }
 
 .hero p {
   font-size: 1em;
   margin-top: 61%;
-  margin-left: 5%;
+  margin-left: 2.5%;
 }
 
 /* H2 for info section */
@@ -95,12 +95,12 @@ h1 {
   h1 {
     font-size: 4.3em;
     margin-top: 15%;
-    margin-left: 4.5%;
+    margin-left: 2.5%;
   }
 
   .hero p {
     margin-top: 41%;
-    margin-left: 4.5%;
+    margin-left: 2.5%;
     font-size: 1.2em;
   }
 
@@ -182,12 +182,12 @@ h1 {
   h1 {
     font-size: 5em;
     margin-top: 11%;
-    margin-left: 2.8%;
+    margin-left: 2.5%;
   }
 
   .hero p {
     margin-top: 33%;
-    margin-left: 2.8%;
+    margin-left: 2.5%;
     font-size: 1.2em;
   }
 
@@ -195,11 +195,12 @@ h1 {
   .column h2 {
     font-size: 3.1em;
     margin-top: 1%;
-    margin-left: 4%;
+    margin-left: 2.5%;
   }
 
   .column p {
     margin-bottom: 7%;
+    margin-left: 2.5%;
     max-width: 450px;
   }
 

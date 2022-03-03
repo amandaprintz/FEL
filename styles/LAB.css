@@ -59,6 +59,11 @@ button {
     object-fit: cover;
     border: 1px solid white;
   }
+  .lab-wrapper .lab img:hover {
+    opacity: 0.5;
+    transition: 0.2s ease;
+    background: rgba(24, 207, 0, 0.82);
+  }
 
   button {
     height: 14%;
