@@ -9,6 +9,7 @@
   font-family: BNGrimer;
   position: absolute;
   margin-top: 40%;
+  transition: color 1s ease;
 }
 
 .explore-wrapper {
@@ -26,6 +27,9 @@
   object-fit: cover;
   border: 1px solid white;
   max-width: 100%;
+}
+.explore-wrapper .explore img:hover {
+  border: 1px solid #5be58c;
 }
 
 /* Tablet screen */
@@ -50,6 +54,8 @@
     object-fit: cover;
     border: 1px solid white;
     max-width: 100%;
+  }
+  .hover:hover img {
   }
 }
 

@@ -8,9 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*     height: 100vh;
- */
-    z-index: 70;
+    height: 62px;
   }
 
   .navbar .menu-items {
@@ -157,7 +155,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     overflow: hidden;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 50;
     bottom: 0;
     background-color: black;
