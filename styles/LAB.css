@@ -33,10 +33,6 @@ button {
   margin-bottom: 40px;
 }
 
-/* Tablet screen */
-@media screen and (min-width: 560px) {
-}
-
 /* Desktop screen*/
 @media screen and (min-width: 768px) {
   .lab-wrapper {

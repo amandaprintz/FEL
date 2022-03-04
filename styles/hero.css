@@ -5,6 +5,11 @@
   height: 70vh;
   /*   width: 100%; */
 }
+/* 
+.hero {
+  background-image: url(/images/HERO-mobile.png);
+  height: 200px;
+} */
 
 @media screen and (min-width: 1024px) {
   .hero {
@@ -15,5 +20,6 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border: 1px solid white;
   }
 }
