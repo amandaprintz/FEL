@@ -21,6 +21,24 @@ button {
   cursor: pointer;
 }
 
+/* Phone screen */
+
+.hero {
+  background-image: url(/images/HERO-mobile.png);
+  height: 200px;
+}
+
+/* Desktop screen */
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/HERO2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 1px solid white;
+}
 @media screen and (min-width: 768px) {
   hr {
     display: none;
